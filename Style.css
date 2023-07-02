@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(background-pic.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.nav-links ul{
+    display: inline;
+    list-style-type: none;
+    margin: 10px 30px;
+    float: right;
+    padding-right: 25px;
+    font-size: larger;
+    position: relative;
+}
+
+.nav-links ul li{
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.nav-links ul li a{
+    text-decoration: none;
+    color: white;
+    transition: 0.5s ease;
+    position: relative;
+}
+.nav-links ul li a:hover{
+    background-color: #45a049;
+}
+
+.title h3{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 50px;
+}
+.title p{
+    margin-left: 100px;
+    font-size: 25px;
+    color: white;
+}
+
+form{
+    width: 60%;
+    border-radius: 8px;
+}
+
+form .details{
+    padding: 55px 55px 0 55px;
+    font-size: 20px;
+    color: white;
+}
+form .details input{
+    width: 274px;
+    height: 25px;
+    padding: 15px;
+    border-radius: 25px;
+    border: 1.5px solid gray;
+}
+
+.details .align{
+    margin-left: 50px;
+}
+
+.details .date{
+    float: right;
+    position: relative;
+    right: 195px;
+    bottom: 50px;
+}
+.radio{
+    color: white;
+    padding: 55px;
+    font-size: 20px;
+}
+input[type="radio"]{
+    width: 15px;
+    height: 20px;
+    column-rule: #001858;
+}
+table{
+    border-collapse: collapse;
+    empty-cells: hide;
+    color: black;
+}
+tr label{
+    width: 17vw;
+    display: inline-block;
+}
+table th,td{
+    padding:  11px;
+    font-size: 15px;
+    width: 5vw;
+    text-align: center;
+    border: 1px solid #c3cad8;
+}
+table tr th{
+    background-color: #e5eaf4;
+}
+.questions{
+    color: white;
+    padding: 55px;
+    font-size: 20px;
+}
+.feedback{
+    padding: 55px;
+    color: white;
+    font-size: 20px;
+}
+.feedback textarea{
+    border-radius: 8px;
+}
+
+.button{
+    padding: 15px;
+    font-size: 20px;
+    justify-content: center;
+    margin: auto;
+    display: flex;  
+}
+
+.button :hover{
+    background-color: #45a049;
+}
+
+form button{
+    padding: 15px;
+    width: 10cm;
+    color: #ffff;
+    border: 1px solid green;
+    cursor: pointer;
+    border-radius: 25px;
+    background-color: green;
+}
